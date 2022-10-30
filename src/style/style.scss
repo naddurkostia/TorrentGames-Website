@@ -49,6 +49,11 @@ header {
     a:hover{
       color: $hover-color;
     }
+	.sticky{
+		a{
+			margin-left: -110px;
+		}
+	}
 	}
 }
 .a {
@@ -56,10 +61,6 @@ header {
 
 }
 
-
-/* Create four equal columns that sits next to each other */
-/* Responsive layout - makes a two column-layout instead of four columns */
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 .row {
 	display: flex;
 	flex-wrap: wrap;
